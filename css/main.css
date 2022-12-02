@@ -283,17 +283,17 @@ img {
         color: #222; }
       #wrapper_main .sidebar_left .auth_sidebar > a {
         max-width: 102px; }
-    #wrapper_main .sidebar_left .best_on_youtube > b {
+    #wrapper_main .sidebar_left .subscriptions > b {
       color: #6C6C6C;
       font-size: 14px;
       text-transform: uppercase;
       display: block;
       padding: 5px 22px; }
-    #wrapper_main .sidebar_left .best_on_youtube > ul {
+    #wrapper_main .sidebar_left .subscriptions > ul {
       list-style-type: none; }
-      #wrapper_main .sidebar_left .best_on_youtube > ul > li {
+      #wrapper_main .sidebar_left .subscriptions > ul > li {
         display: block; }
-        #wrapper_main .sidebar_left .best_on_youtube > ul > li > a {
+        #wrapper_main .sidebar_left .subscriptions > ul > li > a {
           text-decoration: none;
           padding: 9px 22px;
           font-size: 14px;
@@ -306,9 +306,9 @@ img {
           -webkit-transition: background-color 0.4s ease;
           transition: background-color 0.4s ease;
           color: #313131; }
-          #wrapper_main .sidebar_left .best_on_youtube > ul > li > a:hover {
+          #wrapper_main .sidebar_left .subscriptions > ul > li > a:hover {
             background-color: #F2F2F2; }
-          #wrapper_main .sidebar_left .best_on_youtube > ul > li > a > img {
+          #wrapper_main .sidebar_left .subscriptions > ul > li > a > img {
             width: 24px;
             height: 24px;
             border-radius: 50%;
