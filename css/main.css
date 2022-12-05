@@ -330,6 +330,24 @@ img {
       display: flex;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
+    #wrapper_main .catalog .heder_chanal {
+
+      display: flex;
+
+     }
+     #wrapper_main .catalog .heder_chanal img{
+      border-radius: 50%;
+      width: 50px;
+      height: 50px; 
+      
+     }
+     #wrapper_main .catalog .heder_chanal button{
+      border-radius: 50%;
+      width: 28px;
+      height: 28px; 
+      margin-left: 100px;
+      
+     }
       #wrapper_main .catalog .wrapper_catalog .video_item {
         margin: 0 10px 40px;
         width: 23%;
@@ -340,10 +358,6 @@ img {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex; }
-          #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .left_info img {
-            border-radius: 50%;
-            width: 36px;
-            height: 36px; }
           #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info {
             margin-left: 12px; }
             #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .heading {
@@ -360,11 +374,18 @@ img {
                       align-items: center;
               font-size: 14px;
               color: #333; }
-              #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .name_channel img {
-                margin-left: 3px;
-                width: 13px;
-                height: 13px;
-                opacity: 0.6; }
+              #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .asd {
+                display: -ms-flex;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                font-size: 14px;
+                color: #333;
+               
+                justify-content: space-around; }
             #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .vitime {
               font-size: 14px;
               color: #333;
@@ -377,9 +398,3 @@ img {
                       align-items: center; }
               #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .vitime span {
                 margin: 0 5px; }
-
-.line_sb {
-  width: 100%;
-  height: 1px;
-  background-color: #E5E5E5;
-  margin: 10px 0; }
