@@ -194,8 +194,6 @@ img {
         opacity: 1; }
 
 .btn_auth {
-  border: 1px solid #065FD4;
-  color: #065FD4;
   padding: 5px 10px;
   display: -ms-flex;
   display: -webkit-box;
