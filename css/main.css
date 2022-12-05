@@ -54,6 +54,13 @@ img {
   max-width: 100%;
   height: auto; }
 
+.header_cannel{
+  display: -ms-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .hamburger {
   border-radius: 50%;
   -webkit-transition: background-color 0.4s ease-in-out;
@@ -360,6 +367,12 @@ img {
           display: flex; }
           #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info {
             margin-left: 12px; }
+            #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .channal_info {
+              display: -ms-flex;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              justify-content: space-between;}
             #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .heading {
               font-weight: 500;
               font-size: 16px;
