@@ -1,0 +1,74 @@
+
+  #wrapper_main .catalog {
+    width: 87%;
+    padding: 30px 70px; }
+
+    #wrapper_main .catalog h1, #wrapper_main .catalog h2 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #030303;
+      margin-bottom: 15px;
+      padding-left: 10px; }
+    #wrapper_main .catalog .wrapper_catalog {
+      display: flex;
+      flex-wrap: wrap; }
+    #wrapper_main .catalog .heder_chanal {
+      display: flex;
+     }
+     #wrapper_main .catalog .heder_chanal img{
+      border-radius: 50%;
+      width: 40px;
+      height: 40px; 
+     }
+     #wrapper_main .catalog .heder_chanal button{
+      border-radius: 50%;
+      width: 28px;
+      height: 28px; 
+      margin-left: 100px;
+     }
+      #wrapper_main .catalog .wrapper_catalog .video_item {
+        margin: 0 10px 40px;
+        width: 23%;
+        cursor: pointer; }
+        #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info {
+          margin-top: 10px;
+          display: flex; }
+          #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info {
+            margin-left: 12px; }
+            #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .channal_info {
+              display: flex;
+              justify-content: space-between;}
+            #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .heading {
+              font-weight: 500;
+              font-size: 16px;
+              color: #030303; }
+            #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .name_channel {
+              display: flex;
+              align-items: center;
+              font-size: 14px;
+              color: #333; }
+            
+            #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .vitime {
+              font-size: 14px;
+              color: #333;
+              display: flex;
+              align-items: center; }
+              #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .vitime span {
+                margin: 0 5px; }
+
+                .header_cannel{
+                    display: flex;
+                  }
+                  body {
+                    font-size: 16px;
+                    min-width: 320px;
+                    position: relative;
+                    line-height: 1.5;
+                    font-family: "Roboto", sans-serif;
+                    overflow-x: hidden;
+                    opacity: 1;
+                    background-color: #F9F9F9; }
+
+                    
+img {
+    max-width: 100%; }
