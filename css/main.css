@@ -4,8 +4,6 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
  
-
-
 html, body {
   height: 100%; }
 
@@ -26,18 +24,13 @@ img {
   display: flex;
 }
   
-
 #header {
- 
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 15px 10px 24px;
   background-color: #fff; }
   #header .left_side {
-    display: -ms-flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     align-items: center; }
     #header .left_side .logo {
@@ -197,22 +190,18 @@ img {
       display: flex;
       flex-wrap: wrap; }
     #wrapper_main .catalog .heder_chanal {
-
       display: flex;
-
      }
      #wrapper_main .catalog .heder_chanal img{
       border-radius: 50%;
       width: 40px;
       height: 40px; 
-      
      }
      #wrapper_main .catalog .heder_chanal button{
       border-radius: 50%;
       width: 28px;
       height: 28px; 
       margin-left: 100px;
-      
      }
       #wrapper_main .catalog .wrapper_catalog .video_item {
         margin: 0 10px 40px;
