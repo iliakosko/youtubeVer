@@ -11,7 +11,7 @@ display: flex;
     width: 13%;
     background-color: #fff;
     padding: 15px 0;
-    max-height: 200vh;
+    max-height: 100vh;
     overflow-y: auto; 
 }
 .sidebar_left ul.mnu_sidebar {
