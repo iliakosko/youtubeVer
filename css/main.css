@@ -77,18 +77,7 @@ img {
       -webkit-transition: border 0.4s ease-in-out;
       transition: border 0.4s ease-in-out;
       border-radius: 2px; }
-      #header > .center .field input::-webkit-input-placeholder {
-        font-size: 16px;
-        font-weight: 500;
-        color: #959595; }
-      #header > .center .field input:-ms-input-placeholder {
-        font-size: 16px;
-        font-weight: 500;
-        color: #959595; }
-      #header > .center .field input::-ms-input-placeholder {
-        font-size: 16px;
-        font-weight: 500;
-        color: #959595; }
+      
       #header > .center .field input::placeholder {
         font-size: 16px;
         font-weight: 500;
@@ -96,16 +85,10 @@ img {
       #header > .center .field input:focus {
         border-color: #1C62B9; }
     #header > .center .field button {
-      display: -ms-flex;
-      display: -webkit-box;
-      display: -ms-flexbox;
+    
       display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
+      align-items: center;
+      justify-content: center;
       padding: 6.5px 28px;
       background-color: rgba(248, 248, 248, 0.7);
       -webkit-transition: opacity 0.4s ease-in-out;
@@ -120,29 +103,16 @@ img {
         width: 16px;
         height: 16px; }
   #header .right_side {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    display: -ms-flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    align-items: center;
     display: flex; }
     #header .right_side > div {
       margin-right: 20px;
       cursor: pointer;
       max-width: 24px;
-      display: -ms-flex;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
+      align-items: center;
+      justify-content: center;
       opacity: 0.6;
-      -webkit-transition: opacity 0.4s ease-in-out;
       transition: opacity 0.4s ease-in-out; }
       #header .right_side > div > img {
         width: 100%;
@@ -152,15 +122,8 @@ img {
 
 .btn_auth {
   padding: 5px 10px;
-  display: -ms-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  align-items: center;
   text-decoration: none;
   border-radius: 2px; }
   .btn_auth > img {
@@ -169,19 +132,9 @@ img {
     display: block;
     width: 24px;
     height: 24px; }
-  .btn_auth > i {
-    font-weight: 500;
-    font-style: normal;
-    text-transform: uppercase;
-    font-size: 14px; }
-  .btn_auth:hover {
-    border: 1px solid #0554bb;
-    color: #0554bb; }
+ 
 
 #wrapper_main {
-  display: -ms-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex; }
   #wrapper_main .sidebar_left {
     width: 13%;
@@ -194,14 +147,8 @@ img {
       #wrapper_main .sidebar_left ul.mnu_sidebar > li {
         display: block; }
         #wrapper_main .sidebar_left ul.mnu_sidebar > li > a {
-          display: -webkit-box;
-          display: -ms-flexbox;
           display: flex;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          -webkit-transition: background-color 0.4s ease;
-          transition: background-color 0.4s ease;
+          align-items: center;
           color: #313131;
           text-decoration: none;
           padding: 9px 22px;
@@ -243,14 +190,8 @@ img {
           text-decoration: none;
           padding: 9px 22px;
           font-size: 14px;
-          display: -webkit-box;
-          display: -ms-flexbox;
           display: flex;
-          -webkit-box-align: center;
-              -ms-flex-align: center;
-                  align-items: center;
-          -webkit-transition: background-color 0.4s ease;
-          transition: background-color 0.4s ease;
+          align-items: center;
           color: #313131; }
           #wrapper_main .sidebar_left .subscriptions > ul > li > a:hover {
             background-color: #F2F2F2; }
@@ -275,9 +216,6 @@ img {
       margin-bottom: 15px;
       padding-left: 10px; }
     #wrapper_main .catalog .wrapper_catalog {
-      display: -ms-flex;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
@@ -288,8 +226,8 @@ img {
      }
      #wrapper_main .catalog .heder_chanal img{
       border-radius: 50%;
-      width: 50px;
-      height: 50px; 
+      width: 40px;
+      height: 40px; 
       
      }
      #wrapper_main .catalog .heder_chanal button{
@@ -305,16 +243,10 @@ img {
         cursor: pointer; }
         #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info {
           margin-top: 10px;
-          display: -ms-flex;
-          display: -webkit-box;
-          display: -ms-flexbox;
           display: flex; }
           #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info {
             margin-left: 12px; }
             #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .channal_info {
-              display: -ms-flex;
-              display: -webkit-box;
-              display: -ms-flexbox;
               display: flex;
               justify-content: space-between;}
             #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .heading {
@@ -322,25 +254,15 @@ img {
               font-size: 16px;
               color: #030303; }
             #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .name_channel {
-              display: -ms-flex;
-              display: -webkit-box;
-              display: -ms-flexbox;
               display: flex;
-              -webkit-box-align: center;
-                  -ms-flex-align: center;
-                      align-items: center;
+              align-items: center;
               font-size: 14px;
               color: #333; }
             
             #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .vitime {
               font-size: 14px;
               color: #333;
-              display: -ms-flex;
-              display: -webkit-box;
-              display: -ms-flexbox;
               display: flex;
-              -webkit-box-align: center;
-                  -ms-flex-align: center;
-                      align-items: center; }
+              align-items: center; }
               #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .vitime span {
                 margin: 0 5px; }
