@@ -1,5 +1,5 @@
 
-  #wrapper_main .catalog {
+.catalog {
     width: 87%;
     padding: 30px 70px; }
 
@@ -35,9 +35,7 @@
           display: flex; }
           #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info {
             margin-left: 12px; }
-            #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .channal_info {
-              display: flex;
-              justify-content: space-between;}
+
             #wrapper_main .catalog .wrapper_catalog .video_item .bottom_info .right_info .heading {
               font-weight: 500;
               font-size: 16px;
